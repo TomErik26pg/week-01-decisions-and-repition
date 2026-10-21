@@ -1,8 +1,8 @@
-string pilotName = "Rhea";
-string shipName = "Halcyon";
-string sector = "K-19";
+string pilotName = "Bob";
+string shipName = "Ground Control";
+string sector = "Major Tom";
 
 // TODO: Lag badge med string interpolation.
-string badge = "";
+string badge = $"PILOT: {pilotName} | SHIP: {shipName} | SECTOR: {sector}";
 
 Console.WriteLine(badge);
