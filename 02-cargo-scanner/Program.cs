@@ -3,7 +3,6 @@ int maxWeight = 800;
 int containerCount = 2;
 int expectedContainers = 0;
 
-// TODO: Erstatt false med riktige sammenligningsuttrykk.
 bool isOverweight = cargoWeight > maxWeight ? true : false;
 bool isExactlyAtLimit = cargoWeight == maxWeight ? true : false;
 bool hasContainers = containerCount > 0 ? true : false;
